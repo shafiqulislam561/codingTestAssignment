@@ -120,9 +120,11 @@ codingTestAssignment
 │       │       └── example
 │       │           └── codingtestassignment
 │       │               ├── Controller
+│       │               │   ├── CustomerControllerTest.java
 │       │               │   ├── CustomerControllerIntegrationTest.java
-│       │               │   ├── ItemControllerIntegrationTest.java
+│       │               │   ├── ItemControllerTest.java
 │       │               │   ├── SaleControllerIntegrationTest.java
+│       │               │   └── WishlistControllerTest.java
 │       │               │   └── WishlistControllerIntegrationTest.java
 │       │               ├── Model
 │       │               │   ├── CustomerTest.java
