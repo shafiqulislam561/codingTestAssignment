@@ -74,7 +74,31 @@ By following this structure, the project maintains a clear separation of concern
 
 Feel free to contribute and provide feedback to help improve this project!
 
-sql
+### API Endpoints
+- Sales
+   - GET /api/sales/total-amount-by-date
+      - Retrieves the total sale amount for a given date.
+      - Parameters: date (ISO format)
+      - Response: BigDecimal
+
+   - GET /api/sales/max-sale-day
+     - Retrieves the day with the maximum sale in a given date range.
+     - Parameters: startDate, endDate (ISO format)
+     - Response: LocalDate
+     
+  - GET /api/sales/top-5-selling-all-time
+    - Lists the top 5 selling items of all time.
+    - Response: List<Sale>
+
+  - GET /api/sales/top-5-selling-last-month
+    - Lists the top 5 selling items of the last month.
+    - Response: List<Sale>
+    - Wishlist
+
+  - GET /api/wishlists/{customerId}
+    - Retrieves wishlist items for a specific customer.
+    - Response: List<Wishlist>
+
 
 This `README.md` now includes all the detailed information within the relevant sections as specified in the table of contents.
 
